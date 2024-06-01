@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMIRNOff</title>
+    <script src="https://kit.fontawesome.com/c1ced132ff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" rel="preload" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="../../resource/og-icon.png     " type="image/x-icon">
+<link rel="stylesheet" href="./style.css" type="text/css" charset="utf-8" />
+  <meta name="theme-color" content="#EBEBEB"/>
+<body>
+    <div id="main">
+        <div class="load-page">
+            <div id="load" class="center">
+            </div>
+        </div>
+        <span id="open-navbar" style="cursor: pointer; font-size: 70px;width:max-content;" onclick="openNav()" >&#9776;</span>
+        <div class="mysideNav" id="sideNav">
+            <a href="javascript:void(0)" style="font-size: 100px;" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="../../index.html">Home</a>
+            <a href="../../new_releases/index.html">Новые релизы</a>
+            <a href="#">Кроссовки</a>
+            <a href="#">Одежда</a>
+            <a href="#">Акссесуары</a>
+            <a href="#">Sale</a>
+        </div>
+    <h1 class="heading" id="top">SMIRNOff</h1>
+    <div class="button-container">
+        <button class="show-modal" id="button">Регистрация</button>
+        <button class="show-modal-2" id="button" >Войти</button>
+    </div>
+
+        <div class="modal hidden">
+            <button class="close-modal">&times;</button>
+            <h1 class="main-head">Регистрация </h1><br>
+            <h3 class="sub-heading">Зарегистрируйтесь здесь, чтобы получать от нас последние обновления</h3><br><br>
+            <form action="#" class="form">
+
+                <input required type="text"  placeholder="Имя" name="fname" id="fname"><br><br>
+
+                <input type="text" required placeholder="Фамилия" name="lname" id="lname"><br><br>
+
+                <input type="date" required placeholder="DOB" name="dob" title="Date of Birth " id="dob"><br><br>
+
+                <input type="tel" required  name="mobile" placeholder="Номер телефона" id="mobile"><br><br>
+
+                <input type="email" required autocomplete placeholder="Email" name="email-id" id="email-id"><br><br>
+
+                <input type="password" autocomplete="new-password" required  placeholder="Введите пароль" name="password" class="password1"  id="new-password pass-1"><br><br>
+
+                <input type="password" required autocomplete="new-password" placeholder="Подтвердите пароль" name="password" class="password2" id="new-password"><br><br>
+
+                <input type="submit" value="Регистрация" class="btn">
+                <input type="reset" value="Сбросить" class="btn">
+            </form>
+        </div>
+
+        <div class="overlay hidden"></div>
+        <div class="modal-2 hidden">
+            <button class="close-modal-2">&times;</button>
+            <h1 class="login-head" style="color:black">Войти</h1>
+            <form action="#">
+
+            <input type="email" name="email-login" id="email-login" autocomplete="email-login" placeholder="Телефон или Email"><br><br>
+
+            <input type="password" name="current-password"
+             id="current-password" autocomplete="current-password" placeholder="Пароль"><br><br>
+            <input type="submit" value="Войти" id="submit-login" class="btn"><br><br>
+            <h3 class="login-red login-forgot-pass">Забыли пароль? <a href="#">Нажмите сюда</a></h3><br><br>
+            <h3 class="login-red login-forgot-pass">Войти с помощью <i class="fab fa-facebook-f" onclick="javascript.void(0)"></i><i class="fab fa-google"></i> <i class="fab fa-twitter-square"></i> <i class="fab fa-apple"></i></h3>
+            </form>
+        </div>
+
+        <div class="overlay-2 hidden"></div>
+    <div class="shoe-container-slider">
+        <div class="shoe-img">
+            <img src="../../resource/air-com-1.png" alt="air-com--1">
+            <img src="../../resource/air-com-3.png" alt="air-com--3">
+            <img src="../../resource/air-com-2.png" alt="air-com--2">
+            <img src="../../resource/air-com-4.png" alt="air-com--4">
+            <img src="../../resource/air-com-5.png" alt="air-com--5">
+            <img src="../../resource/air-com-6.png" alt="air-com--6">
+        </div>
+        <div class="shoe-content">
+            <h3 class="title-shoe-type">
+                Мужская обувь
+            </h3>
+            <h1 class="head-shoe">
+                Air Jordan 1 Zoom Comfort London Photon Dust Light Sftrmoke Grey
+            </h1>
+            <div class="shoe-title-price">
+                <h1 class="price-show">
+                    5000 ₽
+                </h1>
+                <h2 class="description">
+                    Доставка не включена в стоимость
+                </h2>
+            </div>
+
+            <div class="size-chart">
+                <h2 >Выбрать размер<h2>
+                <a href="https://www.nike.com/in/size-fit/mens-footwear" target="_blank " class="select-size">Размерная сетка
+            </div>
+        <div class="btnContainer" id="mybtnContainer">
+                <button class="btn-style" id="1-btn">
+                    US 7
+                </button>
+                <button class="btn-style" id="2-btn">
+                    US 8
+                </button>
+                <button class="btn-style" id="3-btn">
+                    US 9
+                </button>
+                <button class="btn-style" id="4-btn">
+                    US 9
+                </button>
+                <button class="btn-style" id="5-btn">
+                    US 10
+                </button>
+                <button class="btn-style" id="6-btn">
+                    US 11
+                </button>
+                <button class="btn-style" id="7-btn">
+                    US 12
+                </button>
+        </div>
+        <div class="add-fav-buttons-container">
+            <button class="add-button-style" id="add-to-bag">Добавить в корзину</button>
+            <button class="add-button-style" id="fav-button">Любимые    <i class="far fa-heart" id="heart-icon"></i></button>
+        </div>
+        <h3 class="desp-2">
+        Following the Air Jordan 1 Mid “Milan” and the Air Jordan 1 Low “Paris”, the Air Jordan 1 Zoom Comfort is now in the mix with this London rendition. Officially arriving as a Photon Dust, Light Smoke Grey, and Grey Fog colorway, although not a Retro colorway, expect quite a bit of demand thanks to the sudden surge of Dior-like editions. The upper features a mixture of materials between tumbled leather on the side paneling and toes, smooth leather on overlays and mesh on the cutout Nike Swoosh and ankles. 
+        </h3>
+        
+        <h3 class="terms">
+            
+        
+        Бесплатная доставка по всему Санкт-Петербургу и Ленинградской области для заказов свыше 15000₽.
+
+        </h3>
+        <h3>Style: CV1725-001</h3>
+    </div>
+    </div>
+    <h2 class="also-like-text">ВАМ ТАКЖЕ МОЖЕТ ПОНРАВИТСЯ</h2>
+    <div class="card-container" >
+        <a href="#">
+            <div class="card 1">
+                <img src="../../resource/555088-033.png" class="img-card" alt="Air JORDANS">
+                <h3 class="card-title">Air Jordan 1 Retro High Light Army Rust Shadow Patina</h3>
+            </div>
+        </a>
+        <a href="#">
+            <div class="card 2">
+                <img src="../../resource/adidas-yeezy-boost-700-wave-runner.png" class="img-card" >
+                <h3 class="card-title">Adidas Yeezy Boost 700</h3>
+            </div>
+        </a>
+        <a href="#">
+            <div class="card 3">
+                <img src="../../resource/givenchy.png" class="img-card" >
+                <h3 class="card-title">Givenchy Spectre Low Structured Runner Sneakers</h3>
+            </div>
+        </a>
+        <a href="#">
+            <div class="card 4">
+                <img src="../../resource/off-white-1.png" class="img-card" >
+                <h3 class="card-title">OFF-WHITE Off Court 3.0 Hi-top Zebra Print Sneakers</h3>
+            </div>
+        </a>
+        <a href="#">
+            <div class="card 4">
+                <img src="../../resource/off-white-2.png" class="img-card" >
+                <h3 class="card-title">OFF-WHITE 3.0 Off Court Vintage Mid-top Sneaker Green</h3>
+            </div>
+        </a>
+        <a href="#">
+            <div class="card 4">
+                <img src="../../resource/adidas-yzy-qntm-teal-blue.png" class="img-card" >
+                <h3 class="card-title">Adidas Yeezy Quantum “Teal Blue”</h3>
+            </div>
+        </a>
+    </div>
+    <footer>
+        <div id="ul-list">
+        <div id="list-1">
+            <ul class="ul-list-1" style="list-style-type:none;"> 
+                <li class="ul-list-header">
+                    <a href="../../index.html">
+                        SMIRNOff
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="../../index.html">
+                        HOME
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="../../new_releases/index.html">
+                        НОВЫЕ РЕЛИЗЫ
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="#">
+                        КРОССОВКИ
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="#">
+                        ОДЕЖДА
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="#">
+                        АКССЕСУАРЫ
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="#">
+                        SALE 
+                    </a>
+                </li>
+            </ul>
+            </div>
+        <div id="list-2">
+            <ul class="ul-list-1" style="list-style-type:none;"> 
+                <li class="ul-list-header">
+                    <a href="../../new_releases/index.html">
+                        SALE
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="../../index.html">
+                        НАШИ МАГАЗИНЫ
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="../../new_releases/index.html">
+                        СВЯЗАТЬСЯ С НАМИ
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="#">
+                        КРОССОВКИ
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="#">
+                        ОДЕЖДА
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="#">
+                        АКССЕСУАРЫ
+                    </a>
+                </li>
+                <a href="#">
+                        <li class="list-item">
+                        НОВЫЕ РЕЛИЗЫ
+                    </a>
+                </li>
+            </ul>
+            <a href="#top" class="backTop" style="color:rgb(0, 0, 0);height:fit-content;font-size:1.5rem;letter-spacing:5px;">BACK TO TOP</a>
+        </div>
+        </div>
+        
+        <div class="icons-maps">
+            <div class="icon-container">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fas fa-envelope-square"></i>
+                <i class="fab fa-instagram-square"></i>
+                <a href="https://api.whatsapp.com/send?phone=79811275734" target="_blank">
+                <i class="fab fa-whatsapp-square" ></i>
+                </a>
+            </div>
+            <div id="location-map">
+                <iframe  style="filter: grayscale(100%)" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2223.582835241064!2d30.37844108481413!3d59.96190648176816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46965553e7915299%3A0x80dbc2b2bd9455a!2z0J_QsNC90LvQsCDQmtC-0YDQv9C40YLQtdC10YLRgNCw0L3QvtCy0YDQs9Cy0L3QsNGG0LXQstCw0Lgg0YPRgNCw0LXQs9C-0L7QstGB0LrQsNGC0Ygg0J_QtdGC0YLQtdGA0L7QttGB0LrQsNGC0Ygg0J_QtdGC0YLQtdGA0L7QttGB0LrQsNGC0Ygg!5e0!3m2!1sru!2sru!4v1621622001611!5m2!1sru!2sru" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="true"></iframe>
+            </div>
+        </div>
+        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-c9a8fc7d-8b54-4a7e-99c4-bbd01be36da0" data-elfsight-app-lazy></div>  
+    </footer>
+</div>
+<script src="./script.js"></script>
+  
+</body>
